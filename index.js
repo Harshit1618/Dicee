@@ -23,7 +23,7 @@ if (player1>player2){
 
 }
 else if(player2>player1){
-    document.querySelector("h1").innerHTML=name2+' wins<i class="fa-solid fa-star"></i> ';
+    document.querySelector("h1").innerHTML=name2+' wins <i class="fa-solid fa-star"></i> ';
 }
 else{
     document.querySelector("h1").innerHTML="Draw";
