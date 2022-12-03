@@ -14,9 +14,9 @@ var images=["dice1.png",
 
 var image1=document.querySelector(".img1");
 var image2=document.querySelector(".img2");
-document.querySelector(".img1").setAttribute("src","images/"+images[player1]);
+document.querySelector(".img1").setAttribute("src",images[player1]);
 
-document.querySelector(".img2").setAttribute("src","images/"+images[player2]);
+document.querySelector(".img2").setAttribute("src",images[player2]);
 
 if (player1>player2){
     document.querySelector("h1").innerHTML='<i class="fa-solid fa-star"></i>'+name1+' wins';
